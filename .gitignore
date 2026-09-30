@@ -1,0 +1,24 @@
+# 已下载的音乐（只留本地，不进仓库）
+*.flac
+*.mp3
+*.m4a
+*.wav
+
+# 下载日志
+download_log.jsonl
+
+# 临时/诊断脚本与中间产物
+_migudl/
+*.pyc
+__pycache__/
+# 密钥/凭据占位忽略（发布安全）
+appid_secret.txt
+wechat.env
+*.env
+.env
+credentials.json
+*.pem
+id_rsa
+id_dsa
+id_ed25519
+node_modules/
