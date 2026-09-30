@@ -7,6 +7,13 @@
 # 下载日志
 download_log.jsonl
 
+# 抓取的中间产物（个人歌单数据 + 封面 base64，不进仓库）
+songs_meta.json
+covers_b64.json
+
+# 打标临时文件
+_tag_*
+
 # 临时/诊断脚本与中间产物
 _migudl/
 *.pyc
